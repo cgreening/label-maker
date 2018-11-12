@@ -1,0 +1,13 @@
+[ignore]
+.*/node_modules/stylelint/lib/.*
+
+[include]
+
+[libs]
+
+[options]
+module.file_ext=.scss
+module.file_ext=.js
+module.file_ext=.jsx
+module.file_ext=.json
+suppress_comment= \\(.\\|\n\\)*\\$FlowIgnore

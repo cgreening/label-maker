@@ -1,0 +1,41 @@
+{
+  "env": {
+    "dev": {
+        "presets": [
+            "react",
+            [
+                "env",
+                {
+                    "targets": {
+                        "chrome": 59
+                    },
+                    "exclude": [
+                        "transform-regenerator"
+                    ]
+                }
+            ],
+            "flow"
+        ],
+        "plugins": [
+            "transform-object-rest-spread",
+            "transform-flow-strip-types",
+            "transform-class-constructor-call",
+            "transform-class-properties"
+        ]
+    },
+    "web": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "browsers": ["last 2 versions", "safari >= 7"]
+          }
+        }],
+        "react",
+        "stage-1"
+      ],
+      "plugins": [
+
+      ]
+    }
+  }
+}

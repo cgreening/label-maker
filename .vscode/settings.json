@@ -1,0 +1,6 @@
+{
+  "javascript.validate.enable": false,
+  "flow.enabled": true,
+  "flow.useNPMPackagedFlow": true,
+  "git.ignoreLimitWarning": true
+}
